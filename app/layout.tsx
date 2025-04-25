@@ -7,9 +7,9 @@ export const metadata: Metadata = {
   description: "智能开发无人机系统，革命性算控一体无人机平台，解锁无限开发可能",
   generator: 'v0.dev',
   icons: [
-    { rel: "icon", url: "/web-17.png" },
-    { rel: "shortcut icon", url: "/web-17.png" },
-    { rel: "apple-touch-icon", url: "/web-17.png" }
+    { rel: "icon", url: "/favicon.png" },
+    { rel: "shortcut icon", url: "/favicon.png" },
+    { rel: "apple-touch-icon", url: "/favicon.png" }
   ]
 }
 
