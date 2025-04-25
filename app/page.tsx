@@ -145,43 +145,43 @@ export default function Home() {
       </section>
 
       {/* Target Users Section */}
-      <section className="py-16 px-4 bg-slate-100">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-bold mb-12 text-center text-indigo-800">目标用户</h2>
-          <div className="grid md:grid-cols-3 gap-24 mx-auto" style={{ maxWidth: '80%' }}>
+      <section className="py-20 px-4 bg-slate-100">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold mb-16 text-center text-indigo-800">目标用户</h2>
+          <div className="grid md:grid-cols-3 gap-32 mx-auto" style={{ maxWidth: '90%' }}>
             <div className="text-center">
-              <div className="relative rounded-lg overflow-hidden mb-6">
+              <div className="relative rounded-lg overflow-hidden mb-8 shadow-lg">
                 <Image
                   src="/web-13.png"
                   alt="穿越机（FPV）C端用户"
-                  width={320}
-                  height={240}
+                  width={400}
+                  height={300}
                   className="w-full h-auto object-cover"
                 />
-                <div className="absolute bottom-0 left-0 right-0 bg-white py-2">
-                  <h3 className="font-bold text-lg text-indigo-800">穿越机（FPV）C端用户</h3>
+                <div className="absolute bottom-0 left-0 right-0 bg-white py-3">
+                  <h3 className="font-bold text-xl text-indigo-800">穿越机（FPV）C端用户</h3>
                 </div>
               </div>
-              <ul className="text-sm text-indigo-800 space-y-2 list-disc text-left pl-7 pr-3">
+              <ul className="text-base text-indigo-800 space-y-3 list-disc text-left pl-7 pr-3">
                 <li>通用无人机平台环境：追求高性价比、高可玩性。</li>
                 <li>进阶用户：需要高自由度定制飞控与图传系统。</li>
                 <li>发烧友：喜欢动手改装、尝试新玩法的创客或极客。</li>
               </ul>
             </div>
             <div className="text-center">
-              <div className="relative rounded-lg overflow-hidden mb-6">
+              <div className="relative rounded-lg overflow-hidden mb-8 shadow-lg">
                 <Image
                   src="/web-12.png"
                   alt="教育领域用户"
-                  width={320}
-                  height={240}
+                  width={400}
+                  height={300}
                   className="w-full h-auto object-cover"
                 />
-                <div className="absolute bottom-0 left-0 right-0 bg-white py-2">
-                  <h3 className="font-bold text-lg text-indigo-800">教育领域用户</h3>
+                <div className="absolute bottom-0 left-0 right-0 bg-white py-3">
+                  <h3 className="font-bold text-xl text-indigo-800">教育领域用户</h3>
                 </div>
               </div>
-              <ul className="text-sm text-indigo-800 space-y-2 list-disc text-left pl-7 pr-3">
+              <ul className="text-base text-indigo-800 space-y-3 list-disc text-left pl-7 pr-3">
                 <li>高校与职业院校：配合无人机课程，利用开源优势。</li>
                 <li>中小学STEA教育：适用于科技特长生竞赛项目。</li>
                 <li>科研开发者：用于无人机算法开发。</li>
@@ -189,19 +189,19 @@ export default function Home() {
               </ul>
             </div>
             <div className="text-center">
-              <div className="relative rounded-lg overflow-hidden mb-6">
+              <div className="relative rounded-lg overflow-hidden mb-8 shadow-lg">
                 <Image
                   src="/web-11.png"
                   alt="企业用户"
-                  width={320}
-                  height={240}
+                  width={400}
+                  height={300}
                   className="w-full h-auto object-cover"
                 />
-                <div className="absolute bottom-0 left-0 right-0 bg-white py-2">
-                  <h3 className="font-bold text-lg text-indigo-800">企业用户</h3>
+                <div className="absolute bottom-0 left-0 right-0 bg-white py-3">
+                  <h3 className="font-bold text-xl text-indigo-800">企业用户</h3>
                 </div>
               </div>
-              <ul className="text-sm text-indigo-800 space-y-2 list-disc text-left pl-7 pr-3">
+              <ul className="text-base text-indigo-800 space-y-3 list-disc text-left pl-7 pr-3">
                 <li>能源与基础设施：提升算力、光伏、油气管网巡检等效率与安全性。</li>
                 <li>农业科技：植保喷洒、土地测绘等，优化生产。</li>
                 <li>物流与运输：偏远地区小型货物配送，提高效率。</li>
